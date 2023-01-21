@@ -5,7 +5,7 @@ const EmployeesList = ({ data }) => {
 	return (
 		<ul className="app-list list-group">
 			{data.map((item) => {
-				return <EmployeesListItem {...item} key={item.name} />
+				return <EmployeesListItem {...item} key={item.id} />
 			})}
 		</ul>
 	)
